@@ -1,13 +1,37 @@
 .left-side {
-  width: 500px;
+  width: 20%;
   height: 100%;
   background-color: aqua;
 }
 
 .profile {
+  height: auto;
+  width: 100%;
+}
 
+.divider {
+  margin: 10px;
+  height: 1px;
+  color: transparent;
 }
 
 .content {
   padding: 16px;
+}
+
+.button {
+  background-color: chocolate;
+  border: 0px transparent;
+  border-radius: 50px;
+
+  font-size: large;
+  font-family: Arial;
+  font-style: normal;
+
+  height: 45px;
+  width: 100%;
+
+  :hover {
+    background-color: red;
+  }
 }

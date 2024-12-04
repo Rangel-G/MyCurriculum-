@@ -4,10 +4,14 @@ import { SidebarComponent } from "../sidebar/sidebar.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, SidebarComponent],
+  imports: [
+    RouterOutlet,
+    SidebarComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
+
 export class AppComponent {
   title = 'My curriculum';
 }
